@@ -78,6 +78,11 @@
   </build>
 
   <dependencies>
+    <!--INTERNAL-->
+    <dependency>
+      <groupId>com.sebczu.poc.rest</groupId>
+      <artifactId>hello-service</artifactId>
+    </dependency>
     <!--EXTERNAL-->
     <dependency>
       <groupId>org.springframework.boot</groupId>

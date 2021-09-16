@@ -18,6 +18,17 @@
         <artifactId>application</artifactId>
         <version>${project.version}</version>
       </dependency>
+      <!-- HELLO-->
+      <dependency>
+        <groupId>com.sebczu.poc.rest</groupId>
+        <artifactId>hello-api</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.sebczu.poc.rest</groupId>
+        <artifactId>hello-service</artifactId>
+        <version>${project.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 

@@ -2,21 +2,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>service</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>hello-service</artifactId>
 
   <parent>
     <groupId>com.sebczu.poc.rest</groupId>
-    <artifactId>poc-rest</artifactId>
+    <artifactId>hello</artifactId>
     <version>0.0.1</version>
   </parent>
 
-  <modules>
-    <module>bom</module>
-    <module>parent</module>
-
-    <module>application</module>
-    <module>hello</module>
-  </modules>
+  <dependencies>
+    <!--INTERNAL-->
+    <dependency>
+      <groupId>com.sebczu.poc.rest</groupId>
+      <artifactId>hello-api</artifactId>
+    </dependency>
+  </dependencies>
 
 </project>
